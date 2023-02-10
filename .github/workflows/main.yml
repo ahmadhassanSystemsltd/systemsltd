@@ -1,0 +1,9 @@
+- name: Delete merged branch
+  # You may pin to the exact commit or the version.
+  # uses: SvanBoxel/delete-merged-branch@2b5b058e3db41a3328fd9a6a58fd4c2545a14353
+  uses: SvanBoxel/delete-merged-branch@1.4.3
+  with:
+    # list of branches that should not be automatically deleted after a merge. Wildcards supported.
+    exclude: # optional
+    # whether or not a branch should be deleted if PR is closed without merging
+    delete_closed_pr: # optional
